@@ -222,19 +222,15 @@ fun DripRaceRootScreen(
       }
       is GamePhase.Home -> {
         HomeOverlay(
-          diagnostics = uiState.diagnostics,
           walletSnapshot = uiState.walletSnapshot,
           bestScore = uiState.bestScore,
           walletBalance = uiState.walletBalance,
           pendingWalletBalance = uiState.pendingWalletBalance,
           saveStatus = uiState.saveStatus,
           saveWarning = uiState.saveWarning,
-          viewportSummary = uiState.viewportSummary,
-          transitionCount = uiState.transitionCount,
           onPlay = onPlay,
           onOpenGarage = onOpenGarage,
           onOpenProgressionTab = onOpenProgressionTab,
-          onImportSedanGlb = onImportSedanGlb,
         )
       }
       is GamePhase.Garage -> {
@@ -311,9 +307,15 @@ fun DripRaceRootScreen(
         audioSummary = uiState.diagnostics.audioSummary,
         hasHardwareVibrator = uiState.diagnostics.hasHardwareVibrator,
         audioMixSnapshot = uiState.audioMixSnapshot,
+        trafficSummary = uiState.diagnostics.trafficInventorySummary,
+        lastTrafficImportNotice = uiState.diagnostics.lastTrafficImportNotice,
+        showTrafficImportButton =
+          uiState.diagnostics.sedanOnDevicePending ||
+            uiState.diagnostics.trafficStates.any { !it.sha256Verified },
         onSelectGraphicsQuality = onSelectGraphicsQuality,
         onUpdateAudioSettings = onUpdateAudioSettings,
         onImportValleySceneryGlb = onImportValleySceneryGlb,
+        onImportSedanGlb = onImportSedanGlb,
       )
     }
   }
@@ -539,19 +541,15 @@ private fun ErrorScreen(
 
 @Composable
 private fun HomeOverlay(
-  diagnostics: AssetDiagnosticStatus,
   walletSnapshot: WalletSnapshot,
   bestScore: Int,
   walletBalance: Long,
   pendingWalletBalance: Long,
   saveStatus: SaveHealthStatus,
   saveWarning: String?,
-  viewportSummary: String,
-  transitionCount: Int,
   onPlay: () -> Unit,
   onOpenGarage: () -> Unit,
   onOpenProgressionTab: (ProgressionTab) -> Unit,
-  onImportSedanGlb: () -> Unit,
 ) {
   val selectedEnvName =
     ProgressionCatalog.findEnvironment(walletSnapshot.selectedEnvironmentId)?.displayName
@@ -649,14 +647,6 @@ private fun HomeOverlay(
             }
           }
         }
-        Spacer(modifier = Modifier.width(16.dp))
-        DiagnosticStatusCard(
-          diagnostics = diagnostics,
-          viewportSummary = viewportSummary,
-          transitionCount = transitionCount,
-          onImportSedanGlb = onImportSedanGlb,
-          modifier = Modifier.widthIn(max = 380.dp),
-        )
       }
     } else {
       val outerPadH = if (isCompactHeight) 14.dp else 20.dp
@@ -715,14 +705,6 @@ private fun HomeOverlay(
           horizontalAlignment = Alignment.CenterHorizontally,
           verticalArrangement = Arrangement.spacedBy(bottomSpacing),
         ) {
-          DiagnosticStatusCard(
-            diagnostics = diagnostics,
-            viewportSummary = viewportSummary,
-            transitionCount = transitionCount,
-            onImportSedanGlb = onImportSedanGlb,
-            compact = isCompactHeight,
-            modifier = Modifier.fillMaxWidth(),
-          )
           HomeProgressionBar(
             walletSnapshot = walletSnapshot,
             onOpenProgressionTab = onOpenProgressionTab,
@@ -849,102 +831,6 @@ private fun HomeNavChip(
       color = if (highlight) DripGoldAccent else DripTextPrimary,
       maxLines = 1,
     )
-  }
-}
-
-@Composable
-private fun DiagnosticStatusCard(
-  diagnostics: AssetDiagnosticStatus,
-  viewportSummary: String,
-  transitionCount: Int,
-  onImportSedanGlb: () -> Unit,
-  compact: Boolean = false,
-  modifier: Modifier = Modifier,
-) {
-  Card(
-    modifier = modifier,
-    colors = CardDefaults.cardColors(containerColor = DripSurfaceDark.copy(alpha = 0.88f)),
-    shape = RoundedCornerShape(14.dp),
-  ) {
-    Column(
-      modifier = Modifier.padding(if (compact) 8.dp else 12.dp),
-      verticalArrangement = Arrangement.spacedBy(if (compact) 2.dp else 3.dp),
-    ) {
-      val originColor =
-        if (diagnostics.vehicleOrigin == VehicleAssetOrigin.BUNDLED_OFFLINE) {
-          DripEmeraldOk
-        } else {
-          DripGoldAccent
-        }
-      Text(
-        text = "Phase 8 Part 8 V2 HUD & Audio • ${diagnostics.vehicleSourceLabel}",
-        style = if (compact) MaterialTheme.typography.labelSmall else MaterialTheme.typography.labelMedium,
-        color = originColor,
-        maxLines = 1,
-      )
-      Text(
-        text = diagnostics.heroInventorySummary,
-        style = if (compact) MaterialTheme.typography.labelSmall else MaterialTheme.typography.labelMedium,
-        color = DripTextPrimary,
-        maxLines = 1,
-        modifier = Modifier.testTag("home_hero_inventory_text"),
-      )
-      Text(
-        text = diagnostics.trafficInventorySummary,
-        style = if (compact) MaterialTheme.typography.labelSmall else MaterialTheme.typography.labelMedium,
-        color = DripMetallicSilver,
-        maxLines = 1,
-        modifier = Modifier.testTag("traffic_inventory_text"),
-      )
-      diagnostics.lastTrafficImportNotice?.let { notice ->
-        Text(
-          text = notice,
-          style = if (compact) MaterialTheme.typography.labelSmall else MaterialTheme.typography.labelMedium,
-          color = DripGoldAccent,
-          maxLines = 1,
-          modifier = Modifier.testTag("traffic_import_notice_text"),
-        )
-      }
-      if (diagnostics.sedanOnDevicePending ||
-        diagnostics.trafficStates.any { !it.sha256Verified }
-      ) {
-        OutlinedButton(
-          onClick = onImportSedanGlb,
-          contentPadding =
-            if (compact) androidx.compose.foundation.layout.PaddingValues(horizontal = 8.dp, vertical = 4.dp)
-            else ButtonDefaults.ContentPadding,
-          modifier =
-            Modifier.fillMaxWidth()
-              .padding(top = if (compact) 1.dp else 2.dp)
-              .minimumInteractiveComponentSize()
-              .testTag("import_sedan_glb_button"),
-        ) {
-          Icon(Icons.Filled.FolderOpen, contentDescription = null, tint = DripGoldAccent)
-          Spacer(modifier = Modifier.width(6.dp))
-          Text(
-            text = stringResource(R.string.action_import_sedan_glb),
-            color = DripGoldAccent,
-            maxLines = 1,
-          )
-        }
-      }
-      Text(
-        text = "${diagnostics.sceneryInventorySummary} • ${diagnostics.audioSummary} • ${diagnostics.asphaltMapsStatus}",
-        style = if (compact) MaterialTheme.typography.labelSmall else MaterialTheme.typography.labelMedium,
-        color = DripTextMuted,
-        maxLines = 1,
-        modifier = Modifier.testTag("home_scenery_inventory_text"),
-      )
-      if (!compact) {
-        Text(
-          text = "${diagnostics.audioSummary} • Viewport: $viewportSummary • T:$transitionCount",
-          style = MaterialTheme.typography.labelMedium,
-          color = DripElectricBlue,
-          maxLines = 1,
-          modifier = Modifier.testTag("home_audio_inventory_text"),
-        )
-      }
-    }
   }
 }
 

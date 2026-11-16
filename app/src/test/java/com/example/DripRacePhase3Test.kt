@@ -665,6 +665,9 @@ class DripRacePhase3Test {
           onRetry = vm::onRetryClicked,
           onPickGlbPreview = {},
           onImportSedanGlb = {},
+          onOpenProgressionTab = vm::onOpenProgressionTab,
+          onSelectProgressionTab = vm::onSelectProgressionTab,
+          onCloseProgressionOverlay = vm::onCloseProgressionOverlay,
           onBackFromRunning = { vm.onBackPressed() },
           onSteerLeft = vm::onSteerLeft,
           onSteerRight = vm::onSteerRight,
@@ -683,7 +686,17 @@ class DripRacePhase3Test {
 
     composeTestRule.waitForIdle()
     composeTestRule.onNodeWithTag("home_best_score_text").assertIsDisplayed()
-    composeTestRule.onNodeWithTag("import_sedan_glb_button").assertIsDisplayed()
+    // Main Menu stays clean: no import button or technical diagnostic text on Home
+    composeTestRule.onNodeWithTag("import_sedan_glb_button").assertDoesNotExist()
+    composeTestRule.onNodeWithTag("home_scenery_inventory_text").assertDoesNotExist()
+
+    // Local-only SAF import route remains accessible inside Settings
+    composeTestRule.onNodeWithTag("settings_button").performClick()
+    composeTestRule.waitForIdle()
+    composeTestRule.onNodeWithTag("import_sedan_glb_button").performScrollTo().assertIsDisplayed()
+    composeTestRule.onNodeWithTag("progression_close_button").performClick()
+    composeTestRule.waitForIdle()
+
     composeTestRule.onNodeWithTag("play_button").performClick()
     composeTestRule.waitForIdle()
 

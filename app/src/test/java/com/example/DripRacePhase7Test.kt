@@ -572,15 +572,13 @@ class DripRacePhase7Test {
 
     composeTestRule.waitForIdle()
 
-    // Exact branding preserved
+    // Exact branding preserved and Main Menu free of diagnostic code / import buttons
     composeTestRule.onNodeWithText("DRIP RACE").assertIsDisplayed()
     composeTestRule
       .onNodeWithText("A Property of Sound Of Drip Musictech Private Limited.")
       .assertIsDisplayed()
-    composeTestRule
-      .onNodeWithTag("home_scenery_inventory_text")
-      .performScrollTo()
-      .assertTextContains("18/19 verified", substring = true)
+    composeTestRule.onNodeWithTag("home_scenery_inventory_text").assertDoesNotExist()
+    composeTestRule.onNodeWithTag("import_sedan_glb_button").assertDoesNotExist()
 
     // Open Levels tab -> inspect scenery summary, HDR preparation route, >30MB Valley import button, & quality presets
     composeTestRule.onNodeWithTag("levels_button").performScrollTo().performClick()

@@ -29,6 +29,7 @@ import androidx.compose.material.icons.filled.CalendarMonth
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.EmojiEvents
+import androidx.compose.material.icons.filled.FolderOpen
 import androidx.compose.material.icons.filled.Landscape
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material.icons.filled.MonetizationOn
@@ -102,9 +103,13 @@ fun ProgressionHubOverlay(
   audioSummary: String = "",
   hasHardwareVibrator: Boolean = false,
   audioMixSnapshot: AudioMixSnapshot = AudioMixSnapshot(),
+  trafficSummary: String = "",
+  lastTrafficImportNotice: String? = null,
+  showTrafficImportButton: Boolean = false,
   onSelectGraphicsQuality: (GraphicsQualityPreset) -> Unit = {},
   onUpdateAudioSettings: (AudioSettingsState) -> Unit = {},
   onImportValleySceneryGlb: () -> Unit = {},
+  onImportSedanGlb: () -> Unit = {},
 ) {
   BackHandler(onBack = onClose)
 
@@ -301,8 +306,12 @@ fun ProgressionHubOverlay(
                 audioSummary = audioSummary,
                 hasHardwareVibrator = hasHardwareVibrator,
                 raceInProgress = raceInProgress,
+                trafficSummary = trafficSummary,
+                lastTrafficImportNotice = lastTrafficImportNotice,
+                showTrafficImportButton = showTrafficImportButton,
                 onUpdateAudioSettings = onUpdateAudioSettings,
                 onSelectGraphicsQuality = onSelectGraphicsQuality,
+                onImportSedanGlb = onImportSedanGlb,
               )
             }
           }
@@ -945,8 +954,12 @@ private fun SettingsTabContent(
   audioSummary: String,
   hasHardwareVibrator: Boolean,
   raceInProgress: Boolean,
+  trafficSummary: String = "",
+  lastTrafficImportNotice: String? = null,
+  showTrafficImportButton: Boolean = false,
   onUpdateAudioSettings: (AudioSettingsState) -> Unit,
   onSelectGraphicsQuality: (GraphicsQualityPreset) -> Unit,
+  onImportSedanGlb: () -> Unit = {},
 ) {
   val settings = walletSnapshot.audioSettings
   val activeCarProfile = AudioCatalog.profileForVehicle(walletSnapshot.selectedVehicleId)
@@ -1201,6 +1214,57 @@ private fun SettingsTabContent(
         style = MaterialTheme.typography.labelSmall,
         color = DripTextMuted,
       )
+    }
+  }
+
+  // 5. Local-Only On-Device Traffic GLB Import Route (preserved off the Main Menu)
+  if (showTrafficImportButton || trafficSummary.isNotBlank() || lastTrafficImportNotice != null) {
+    Surface(
+      color = DripSurfaceElevated,
+      shape = RoundedCornerShape(12.dp),
+      modifier = Modifier.fillMaxWidth().testTag("settings_traffic_import_card"),
+    ) {
+      Column(modifier = Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Text(
+          text = "LOCAL TRAFFIC MODEL IMPORT",
+          style = MaterialTheme.typography.labelLarge,
+          fontWeight = FontWeight.Bold,
+          color = DripGoldAccent,
+        )
+        if (trafficSummary.isNotBlank()) {
+          Text(
+            text = trafficSummary,
+            style = MaterialTheme.typography.labelMedium,
+            color = DripMetallicSilver,
+            modifier = Modifier.testTag("traffic_inventory_text"),
+          )
+        }
+        lastTrafficImportNotice?.let { notice ->
+          Text(
+            text = notice,
+            style = MaterialTheme.typography.labelMedium,
+            color = DripGoldAccent,
+            modifier = Modifier.testTag("traffic_import_notice_text"),
+          )
+        }
+        if (showTrafficImportButton) {
+          OutlinedButton(
+            onClick = onImportSedanGlb,
+            modifier =
+              Modifier.fillMaxWidth()
+                .minimumInteractiveComponentSize()
+                .testTag("import_sedan_glb_button"),
+          ) {
+            Icon(Icons.Filled.FolderOpen, contentDescription = null, tint = DripGoldAccent)
+            Spacer(modifier = Modifier.width(6.dp))
+            Text(
+              text = stringResource(R.string.action_import_sedan_glb),
+              color = DripGoldAccent,
+              maxLines = 1,
+            )
+          }
+        }
+      }
     }
   }
 }
