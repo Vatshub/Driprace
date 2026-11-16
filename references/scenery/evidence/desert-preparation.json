@@ -1,0 +1,14 @@
+{
+  "source": "/Users/user/Desktop/cars glb/scenery/016221_2175_overview_mars_hirise.glb",
+  "sandSource": "/Users/user/Documents/Codex/2026-11-14/referenced-chatgpt-conversation-this-is-an/outputs/DRIP-RACE-approved-sand/",
+  "changes": "Baked source transforms; retained upward-facing terrain surface, removing vertical skirt, underside faces and the flat display pedestal; applied approved Aerial Sand material with planar UVs and analytic tangents. Original source untouched. This remains Mars-derived terrain, not an Earth dune scan.",
+  "sourceTriangles": 170888,
+  "removedVerticalOrUndersideTriangles": 7687,
+  "fullSurfaceTriangles": 163201,
+  "candidateTriangles": 40799,
+  "full": "outputs/DRIP-RACE-scenery-prepared/desert-mars-sand-1k.glb",
+  "file": "outputs/DRIP-RACE-scenery-prepared/desert-mars-sand-1k-lod-candidate.glb",
+  "bytes": 4039648,
+  "uvDesign": "15 m texture period if this terrain is uniformly scaled 10x for 250 m source width; other scales require UV adjustment.",
+  "status": "CANDIDATE — visual inspection and mobile test pending"
+}

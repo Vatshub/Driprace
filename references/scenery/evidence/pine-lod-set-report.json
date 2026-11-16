@@ -1,0 +1,24 @@
+{
+  "source": "/Users/user/Documents/Codex/2026-11-14/referenced-chatgpt-conversation-this-is-an/outputs/DRIP-RACE-approved-pine-trees/pine-trees.glb",
+  "file": "outputs/DRIP-RACE-scenery-prepared/pine-medium-1-lod-set.glb",
+  "bytes": 7398052,
+  "groups": [
+    "Pine_medium_1_LOD0",
+    "Pine_medium_1_LOD1",
+    "Pine_medium_1_LOD2"
+  ],
+  "texturesShared": 6,
+  "requiredRuntimeHelper": "prepare-pine-lod.mjs: exactly one authored level visible at a time; default glTF contains all three.",
+  "bounds": {
+    "min": [
+      -2.855322031434815,
+      -1.1102230246251565e-16,
+      -2.400319242412569
+    ],
+    "max": [
+      2.8553220314348073,
+      11.999999999999998,
+      2.400319242412569
+    ]
+  }
+}

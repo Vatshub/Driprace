@@ -1,0 +1,209 @@
+[
+  {
+    "id": "brake-skid",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 87510,
+    "expectedFrames": 87510,
+    "frameCountMatches": true
+  },
+  {
+    "id": "ui-click",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 30769,
+    "expectedFrames": 30769,
+    "frameCountMatches": true
+  },
+  {
+    "id": "coin-pickup",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 80218,
+    "expectedFrames": 80218,
+    "frameCountMatches": true
+  },
+  {
+    "id": "collision-impact",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 83147,
+    "expectedFrames": 83147,
+    "frameCountMatches": true
+  },
+  {
+    "id": "countdown-beep",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 32511,
+    "expectedFrames": 32511,
+    "frameCountMatches": true
+  },
+  {
+    "id": "countdown-go",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 42234,
+    "expectedFrames": 42234,
+    "frameCountMatches": true
+  },
+  {
+    "id": "double-coins-pickup",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 35033,
+    "expectedFrames": 35033,
+    "frameCountMatches": true
+  },
+  {
+    "id": "engine-high",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 462720,
+    "expectedFrames": 462720,
+    "frameCountMatches": true
+  },
+  {
+    "id": "engine-idle",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 531840,
+    "expectedFrames": 531840,
+    "frameCountMatches": true
+  },
+  {
+    "id": "engine-steady",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 474240,
+    "expectedFrames": 474240,
+    "frameCountMatches": true
+  },
+  {
+    "id": "game-over",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 82769,
+    "expectedFrames": 82769,
+    "frameCountMatches": true
+  },
+  {
+    "id": "magnet-activate",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 102166,
+    "expectedFrames": 102166,
+    "frameCountMatches": true
+  },
+  {
+    "id": "music-menu",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 4297996,
+    "expectedFrames": 4297996,
+    "frameCountMatches": true
+  },
+  {
+    "id": "nitro-activate",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 154939,
+    "expectedFrames": 154939,
+    "frameCountMatches": true
+  },
+  {
+    "id": "nitro-sustain",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 296895,
+    "expectedFrames": 296895,
+    "frameCountMatches": true
+  },
+  {
+    "id": "purchase-confirm",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 64477,
+    "expectedFrames": 64477,
+    "frameCountMatches": true
+  },
+  {
+    "id": "music-race",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 5659380,
+    "expectedFrames": 5659380,
+    "frameCountMatches": true
+  },
+  {
+    "id": "shield-activate",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 116089,
+    "expectedFrames": 116089,
+    "frameCountMatches": true
+  },
+  {
+    "id": "shield-break",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 41014,
+    "expectedFrames": 41014,
+    "frameCountMatches": true
+  },
+  {
+    "id": "road-noise",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 397688,
+    "expectedFrames": 397688,
+    "frameCountMatches": true
+  },
+  {
+    "id": "traffic-pass",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 162333,
+    "expectedFrames": 162333,
+    "frameCountMatches": true
+  },
+  {
+    "id": "achievement-unlock",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 164100,
+    "expectedFrames": 164100,
+    "frameCountMatches": true
+  },
+  {
+    "id": "wind",
+    "decoded": true,
+    "sampleRate": 48000,
+    "channels": 2,
+    "frames": 432480,
+    "expectedFrames": 432480,
+    "frameCountMatches": true
+  }
+]

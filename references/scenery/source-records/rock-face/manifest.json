@@ -1,0 +1,47 @@
+{
+  "name": "Rock Face 02",
+  "authors": [
+    "Dario Barresi",
+    "Rico Cilliers"
+  ],
+  "source": "https://polyhaven.com/a/rock_face_02",
+  "license": "CC0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "visualApproval": "approved",
+  "downloadStatus": "downloaded",
+  "textureResolution": "2K",
+  "triangles": 29566,
+  "files": [
+    {
+      "path": "textures/rock_face_02_arm_2k.jpg",
+      "bytes": 2973304,
+      "sha256": "06e106bf0d1c885cb245b5a85fb283d00e5871116c5bc8cc39bea150799dd4b8"
+    },
+    {
+      "path": "textures/rock_face_02_diff_2k.jpg",
+      "bytes": 3399918,
+      "sha256": "928fe2b96672ed5104abbeb5eaa7611ac65218d6b4e392f523549426284e2379"
+    },
+    {
+      "path": "textures/rock_face_02_nor_gl_2k.jpg",
+      "bytes": 4023813,
+      "sha256": "bb1a4cd13b02346f90efc95e71f9e019a7bc4169bd5f5d2b38825694b3c81253"
+    },
+    {
+      "path": "rock_face_02.bin",
+      "bytes": 702068,
+      "sha256": "cfa3dea8f0f91525b5dfe93d889acacf961d20f7174aae100eae2c6e101edf31"
+    },
+    {
+      "path": "rock_face_02_2k.gltf",
+      "bytes": 2794,
+      "sha256": "532c5662536c59dde08e1ab3e0985addcf555d7c6bd9c4ee6957c6e5a7c200c6"
+    }
+  ],
+  "validation": {
+    "errors": 0,
+    "warnings": 1,
+    "warning": "Missing mesh tangents; tangent space generated at runtime. Inspect normal-map shading in target renderer."
+  },
+  "limitations": "Local rendering and Samsung A55 performance untested. Lichen-bearing rock face; complete desert scene still outstanding."
+}

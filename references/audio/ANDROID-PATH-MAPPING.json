@@ -1,0 +1,6 @@
+{
+  "sourceManifest": "references/audio/manifest.json",
+  "fileResolution": "Each files[].file is relative to app/src/main/assets/audio/; Android AssetManager path is audio/<file>. sourceFile is historical Mac provenance, not a runtime path.",
+  "preparationMetadata": "gainDb, trim and overlap describe processing already applied to these prepared exports. Do not reapply automatically. In-game mix gains are separate.",
+  "originalChecksums": "Copied source checksums/evidence retain their original scope. PACKAGE-CHECKS.json verifies this staged upload."
+}

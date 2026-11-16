@@ -1,0 +1,52 @@
+{
+  "name": "Aerial Sand",
+  "author": "Rob Tuytel",
+  "source": "https://polyhaven.com/a/aerial_sand",
+  "license": "CC0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "visualApproval": "approved",
+  "downloadStatus": "downloaded and verified",
+  "files": [
+    {
+      "path": "color.jpg",
+      "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/aerial_sand/aerial_sand_diff_2k.jpg",
+      "bytes": 1790070,
+      "sha256": "98eddd01834e996cda3fa20dbc769ae38e87277ad0c62650604572fb2e646cd1",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "normal-gl.jpg",
+      "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/aerial_sand/aerial_sand_nor_gl_2k.jpg",
+      "bytes": 2679057,
+      "sha256": "d4ce3a47379acd398c657adf89611df3843872a76dd3bd9e76f62ee1fb0363ef",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "roughness.jpg",
+      "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/aerial_sand/aerial_sand_rough_2k.jpg",
+      "bytes": 756532,
+      "sha256": "d6b80e523363c7960f3dc59d02e8ca902e4b9ea642353cc01c3b39eb1a5063c5",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "ao.jpg",
+      "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/aerial_sand/aerial_sand_ao_2k.jpg",
+      "bytes": 1960685,
+      "sha256": "3a042eac5d03461c56c673f9afe7a4980386259d6439e3da87418ba687db176b",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "limitations": "Surface material only. Local rendering, tiling review and Samsung A55 performance untested."
+}

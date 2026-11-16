@@ -1,0 +1,35 @@
+{
+  "starter_sports": {
+    "materialIndices": [
+      10,
+      11
+    ],
+    "status": "Blue preview inspected; body materials isolated from glass, tires and lights"
+  },
+  "super_racing": {
+    "materialIndices": [
+      0
+    ],
+    "status": "Blue preview inspected; only primary paint recolored, original secondary trim preserved"
+  },
+  "muscle": {
+    "materialIndices": [
+      0
+    ],
+    "status": "Blue preview inspected using MetallicCrimsonPaint including loader variants; geometry unchanged"
+  },
+  "hyper_sports": {
+    "materialIndices": [
+      10,
+      15
+    ],
+    "status": "Main textured body index 10 and rear-wing/body-detail index 15: blue tint visually verified; original livery texture retained. Exact palette hue is modulated by source texture."
+  },
+  "legendary_supercar": {
+    "materialIndices": [
+      0
+    ],
+    "status": "Blue preview inspected including named loader variants; secondary textured panels preserved"
+  },
+  "limitations": "Single blue color and front-quarter view tested. Seven-color/full-angle verification and per-instance isolation tests remain. Indices apply only to recorded source hashes."
+}

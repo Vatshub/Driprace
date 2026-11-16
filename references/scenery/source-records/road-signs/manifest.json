@@ -1,0 +1,28 @@
+{
+  "name": "Road Sign Pack (Free)",
+  "author": "awlok.dev",
+  "source": "https://sketchfab.com/3d-models/road-sign-pack-free-af5ed08436ee4cb4ae2624a4c5f06a4a",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "approval": "approved",
+  "downloadStatus": "downloaded",
+  "publisherDescription": "6 game ready road signs with PBR textures",
+  "publisherTrianglesApprox": 1500,
+  "preview": "DRIP-RACE-road-sign-candidate.png",
+  "verification": "GLB 2 container and embedded dependencies checked; local appearance and phone performance pending.",
+  "file": "DRIP-RACE-approved-road-signs/road-signs.glb",
+  "bytes": 2408948,
+  "sha256": "7b18be91dc801431a61bb7bb0ac25bc457d831379a180803c50319378ca6e033",
+  "externalDependencies": [],
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "recoveryVerification": {
+    "sha256MatchesApproval": true,
+    "meshes": 6,
+    "images": 3,
+    "containerVerified": true,
+    "fullValidatorRerun": false
+  }
+}

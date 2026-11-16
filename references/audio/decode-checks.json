@@ -1,0 +1,232 @@
+[
+  {
+    "id": "brake-skid",
+    "decodeOk": true,
+    "frames": 87510,
+    "expectedFrames": 87510,
+    "frameCountMatches": true,
+    "peakDbfs": -6.39211220424872,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "ui-click",
+    "decodeOk": true,
+    "frames": 30769,
+    "expectedFrames": 30769,
+    "frameCountMatches": true,
+    "peakDbfs": -6.469365083187768,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "coin-pickup",
+    "decodeOk": true,
+    "frames": 80218,
+    "expectedFrames": 80218,
+    "frameCountMatches": true,
+    "peakDbfs": -6.544495245088773,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "collision-impact",
+    "decodeOk": true,
+    "frames": 83147,
+    "expectedFrames": 83147,
+    "frameCountMatches": true,
+    "peakDbfs": -6.436490329336771,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "countdown-beep",
+    "decodeOk": true,
+    "frames": 32511,
+    "expectedFrames": 32511,
+    "frameCountMatches": true,
+    "peakDbfs": -6.4548625669371855,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "countdown-go",
+    "decodeOk": true,
+    "frames": 42234,
+    "expectedFrames": 42234,
+    "frameCountMatches": true,
+    "peakDbfs": -6.421487349550117,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "double-coins-pickup",
+    "decodeOk": true,
+    "frames": 35033,
+    "expectedFrames": 35033,
+    "frameCountMatches": true,
+    "peakDbfs": -6.248885204624694,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "engine-high",
+    "decodeOk": true,
+    "frames": 462720,
+    "expectedFrames": 462720,
+    "frameCountMatches": true,
+    "peakDbfs": -9.107135022704991,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "engine-idle",
+    "decodeOk": true,
+    "frames": 531840,
+    "expectedFrames": 531840,
+    "frameCountMatches": true,
+    "peakDbfs": -10.755440945714481,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "engine-steady",
+    "decodeOk": true,
+    "frames": 474240,
+    "expectedFrames": 474240,
+    "frameCountMatches": true,
+    "peakDbfs": -10.03708822844857,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "game-over",
+    "decodeOk": true,
+    "frames": 82769,
+    "expectedFrames": 82769,
+    "frameCountMatches": true,
+    "peakDbfs": -6.398200768207998,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "magnet-activate",
+    "decodeOk": true,
+    "frames": 102166,
+    "expectedFrames": 102166,
+    "frameCountMatches": true,
+    "peakDbfs": -6.478301759058685,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "music-menu",
+    "decodeOk": true,
+    "frames": 4297996,
+    "expectedFrames": 4297996,
+    "frameCountMatches": true,
+    "peakDbfs": -12.395024160008246,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "nitro-activate",
+    "decodeOk": true,
+    "frames": 154939,
+    "expectedFrames": 154939,
+    "frameCountMatches": true,
+    "peakDbfs": -6.440384224657451,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "nitro-sustain",
+    "decodeOk": true,
+    "frames": 296895,
+    "expectedFrames": 296895,
+    "frameCountMatches": true,
+    "peakDbfs": -5.99994884152935,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "purchase-confirm",
+    "decodeOk": true,
+    "frames": 64477,
+    "expectedFrames": 64477,
+    "frameCountMatches": true,
+    "peakDbfs": -6.266864471389637,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "music-race",
+    "decodeOk": true,
+    "frames": 5659380,
+    "expectedFrames": 5659380,
+    "frameCountMatches": true,
+    "peakDbfs": -11.096729546236181,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "shield-activate",
+    "decodeOk": true,
+    "frames": 116089,
+    "expectedFrames": 116089,
+    "frameCountMatches": true,
+    "peakDbfs": -6.1176261424755465,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "shield-break",
+    "decodeOk": true,
+    "frames": 41014,
+    "expectedFrames": 41014,
+    "frameCountMatches": true,
+    "peakDbfs": -6.296912866303314,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "road-noise",
+    "decodeOk": true,
+    "frames": 397688,
+    "expectedFrames": 397688,
+    "frameCountMatches": true,
+    "peakDbfs": -10.059847135178885,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "traffic-pass",
+    "decodeOk": true,
+    "frames": 162333,
+    "expectedFrames": 162333,
+    "frameCountMatches": true,
+    "peakDbfs": -6.422597793125915,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "achievement-unlock",
+    "decodeOk": true,
+    "frames": 164100,
+    "expectedFrames": 164100,
+    "frameCountMatches": true,
+    "peakDbfs": -6.42037704792032,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  },
+  {
+    "id": "wind",
+    "decodeOk": true,
+    "frames": 432480,
+    "expectedFrames": 432480,
+    "frameCountMatches": true,
+    "peakDbfs": -13.93920225511009,
+    "fullScaleSamples": 0,
+    "headroomPass": true
+  }
+]

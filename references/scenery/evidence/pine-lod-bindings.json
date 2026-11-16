@@ -1,0 +1,399 @@
+{
+  "source": "/Users/user/Documents/Codex/2026-11-14/referenced-chatgpt-conversation-this-is-an/outputs/DRIP-RACE-approved-pine-trees/pine-trees.glb",
+  "sha256": "5471eebff730c7d60bf073d9a63b31a02e0f3e411d103b7e7332d3459b4b15f0",
+  "note": "15 authored tree shapes, LOD0/1/2 meshes and LOD3 billboards. Showcase LOD translations are 0/20/40/60 local units; do not render all levels together. Prepared medium example removes offsets and applies a shared LOD0-based 12m placement.",
+  "trees": [
+    {
+      "name": "Pine_big_1",
+      "rootNode": 5,
+      "lods": {
+        "0": {
+          "node": 8,
+          "name": "Pine_big_1_LOD0"
+        },
+        "1": {
+          "node": 11,
+          "name": "Pine_big_1_LOD1"
+        },
+        "2": {
+          "node": 14,
+          "name": "Pine_big_1_LOD2"
+        },
+        "3": {
+          "node": 6,
+          "name": "Pine_big_1_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_big_2",
+      "rootNode": 17,
+      "lods": {
+        "0": {
+          "node": 20,
+          "name": "Pine_big_2_LOD0"
+        },
+        "1": {
+          "node": 23,
+          "name": "Pine_big_2_LOD1"
+        },
+        "2": {
+          "node": 26,
+          "name": "Pine_big_2_LOD2"
+        },
+        "3": {
+          "node": 18,
+          "name": "Pine_big_2_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_big_3",
+      "rootNode": 29,
+      "lods": {
+        "0": {
+          "node": 32,
+          "name": "Pine_big_3_LOD0"
+        },
+        "1": {
+          "node": 35,
+          "name": "Pine_big_3_LOD1"
+        },
+        "2": {
+          "node": 38,
+          "name": "Pine_big_3_LOD2"
+        },
+        "3": {
+          "node": 30,
+          "name": "Pine_big_3_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_large_1",
+      "rootNode": 41,
+      "lods": {
+        "0": {
+          "node": 44,
+          "name": "Pine_large_1_LOD0"
+        },
+        "1": {
+          "node": 47,
+          "name": "Pine_large_1_LOD1"
+        },
+        "2": {
+          "node": 50,
+          "name": "Pine_large_1_LOD2"
+        },
+        "3": {
+          "node": 42,
+          "name": "Pine_large_1_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_large_2",
+      "rootNode": 53,
+      "lods": {
+        "0": {
+          "node": 56,
+          "name": "Pine_large_2_LOD0"
+        },
+        "1": {
+          "node": 59,
+          "name": "Pine_large_2_LOD1"
+        },
+        "2": {
+          "node": 62,
+          "name": "Pine_large_2_LOD2"
+        },
+        "3": {
+          "node": 54,
+          "name": "Pine_large_2_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_large_3",
+      "rootNode": 65,
+      "lods": {
+        "0": {
+          "node": 68,
+          "name": "Pine_large_3_LOD0"
+        },
+        "1": {
+          "node": 71,
+          "name": "Pine_large_3_LOD1"
+        },
+        "2": {
+          "node": 74,
+          "name": "Pine_large_3_LOD2"
+        },
+        "3": {
+          "node": 66,
+          "name": "Pine_large_3_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_medium_1",
+      "rootNode": 77,
+      "lods": {
+        "0": {
+          "node": 80,
+          "name": "Pine_medium_1_LOD0"
+        },
+        "1": {
+          "node": 83,
+          "name": "Pine_medium_1_LOD1"
+        },
+        "2": {
+          "node": 86,
+          "name": "Pine_medium_1_LOD2"
+        },
+        "3": {
+          "node": 78,
+          "name": "Pine_medium_1_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_medium_2",
+      "rootNode": 89,
+      "lods": {
+        "0": {
+          "node": 92,
+          "name": "Pine_medium_2_LOD0"
+        },
+        "1": {
+          "node": 95,
+          "name": "Pine_medium_2_LOD1"
+        },
+        "2": {
+          "node": 98,
+          "name": "Pine_medium_2_LOD2"
+        },
+        "3": {
+          "node": 90,
+          "name": "Pine_medium_2_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_medium_3",
+      "rootNode": 101,
+      "lods": {
+        "0": {
+          "node": 104,
+          "name": "Pine_medium_3_LOD0"
+        },
+        "1": {
+          "node": 107,
+          "name": "Pine_medium_3_LOD1"
+        },
+        "2": {
+          "node": 110,
+          "name": "Pine_medium_3_LOD2"
+        },
+        "3": {
+          "node": 102,
+          "name": "Pine_medium_3_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_sapling_1",
+      "rootNode": 113,
+      "lods": {
+        "0": {
+          "node": 116,
+          "name": "Pine_sapling_1_LOD0"
+        },
+        "1": {
+          "node": 119,
+          "name": "Pine_sapling_1_LOD1"
+        },
+        "2": {
+          "node": 122,
+          "name": "Pine_sapling_1_LOD2"
+        },
+        "3": {
+          "node": 114,
+          "name": "Pine_sapling_1_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_sapling_2",
+      "rootNode": 125,
+      "lods": {
+        "0": {
+          "node": 128,
+          "name": "Pine_sapling_2_LOD0"
+        },
+        "1": {
+          "node": 131,
+          "name": "Pine_sapling_2_LOD1"
+        },
+        "2": {
+          "node": 134,
+          "name": "Pine_sapling_2_LOD2"
+        },
+        "3": {
+          "node": 126,
+          "name": "Pine_sapling_2_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_sapling_3",
+      "rootNode": 137,
+      "lods": {
+        "0": {
+          "node": 140,
+          "name": "Pine_sapling_3_LOD0"
+        },
+        "1": {
+          "node": 143,
+          "name": "Pine_sapling_3_LOD1"
+        },
+        "2": {
+          "node": 146,
+          "name": "Pine_sapling_3_LOD2"
+        },
+        "3": {
+          "node": 138,
+          "name": "Pine_sapling_3_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_small_1",
+      "rootNode": 149,
+      "lods": {
+        "0": {
+          "node": 152,
+          "name": "Pine_small_1_LOD0"
+        },
+        "1": {
+          "node": 155,
+          "name": "Pine_small_1_LOD1"
+        },
+        "2": {
+          "node": 158,
+          "name": "Pine_small_1_LOD2"
+        },
+        "3": {
+          "node": 150,
+          "name": "Pine_small_1_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_small_2",
+      "rootNode": 161,
+      "lods": {
+        "0": {
+          "node": 164,
+          "name": "Pine_small_2_LOD0"
+        },
+        "1": {
+          "node": 167,
+          "name": "Pine_small_2_LOD1"
+        },
+        "2": {
+          "node": 170,
+          "name": "Pine_small_2_LOD2"
+        },
+        "3": {
+          "node": 162,
+          "name": "Pine_small_2_Billboard_LOD3"
+        }
+      }
+    },
+    {
+      "name": "Pine_small_3",
+      "rootNode": 173,
+      "lods": {
+        "0": {
+          "node": 176,
+          "name": "Pine_small_3_LOD0"
+        },
+        "1": {
+          "node": 179,
+          "name": "Pine_small_3_LOD1"
+        },
+        "2": {
+          "node": 182,
+          "name": "Pine_small_3_LOD2"
+        },
+        "3": {
+          "node": 174,
+          "name": "Pine_small_3_Billboard_LOD3"
+        }
+      }
+    }
+  ],
+  "preparedExample": [
+    {
+      "lod": 0,
+      "file": "outputs/DRIP-RACE-scenery-prepared/pine-medium-1-lod0.glb",
+      "bytes": 7170636,
+      "triangles": 4425,
+      "bounds": {
+        "min": [
+          -2.855322031434815,
+          -1.1102230246251565e-16,
+          -2.400319242412569
+        ],
+        "max": [
+          2.8553220314348073,
+          11.999999999999998,
+          2.400319242412569
+        ]
+      },
+      "commonReferenceHeightMeters": 12,
+      "authoredGeometryUnmodified": true
+    },
+    {
+      "lod": 1,
+      "file": "outputs/DRIP-RACE-scenery-prepared/pine-medium-1-lod1.glb",
+      "bytes": 7020572,
+      "triangles": 2355,
+      "bounds": {
+        "min": [
+          -2.855322031434815,
+          -1.1102230246251565e-16,
+          -2.400319242412569
+        ],
+        "max": [
+          2.8553220314348073,
+          11.999999999999998,
+          2.400319242412569
+        ]
+      },
+      "commonReferenceHeightMeters": 12,
+      "authoredGeometryUnmodified": true
+    },
+    {
+      "lod": 2,
+      "file": "outputs/DRIP-RACE-scenery-prepared/pine-medium-1-lod2.glb",
+      "bytes": 6953460,
+      "triangles": 1253,
+      "bounds": {
+        "min": [
+          -2.7673289252980537,
+          -1.1102230246251565e-16,
+          -2.289503743756215
+        ],
+        "max": [
+          2.730448162447086,
+          11.999999999999998,
+          2.3975046055370894
+        ]
+      },
+      "commonReferenceHeightMeters": 12,
+      "authoredGeometryUnmodified": true
+    }
+  ]
+}

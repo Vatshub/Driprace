@@ -1,0 +1,41 @@
+[
+  {
+    "distanceMeters": 10,
+    "expectedLevel": 0,
+    "visibleLevels": [
+      0
+    ],
+    "oneCorrectLevelVisible": true,
+    "authoredGeometryTriangles": 4425,
+    "actualRenderedTriangles": 6703,
+    "drawCalls": 3,
+    "sharedBaseColorTextureObjects": 2,
+    "repeatedPreparationRejected": true
+  },
+  {
+    "distanceMeters": 60,
+    "expectedLevel": 1,
+    "visibleLevels": [
+      1
+    ],
+    "oneCorrectLevelVisible": true,
+    "authoredGeometryTriangles": 2355,
+    "actualRenderedTriangles": 3487,
+    "drawCalls": 3,
+    "sharedBaseColorTextureObjects": 2,
+    "repeatedPreparationRejected": true
+  },
+  {
+    "distanceMeters": 150,
+    "expectedLevel": 2,
+    "visibleLevels": [
+      2
+    ],
+    "oneCorrectLevelVisible": true,
+    "authoredGeometryTriangles": 1253,
+    "actualRenderedTriangles": 1677,
+    "drawCalls": 3,
+    "sharedBaseColorTextureObjects": 2,
+    "repeatedPreparationRejected": true
+  }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer subtle metallic racing shield -->
+    <path
+        android:fillColor="#182233"
+        android:pathData="M54,22 L80,34 L76,68 L54,85 L32,68 L28,34 Z"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5" />
+    <!-- Bold aerodynamic forward chevron / nose -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,28 L71,52 L61,52 L54,41 L47,52 L37,52 Z" />
+    <!-- Speed twin tracks / chassis core -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M42,56 L50,56 L50,74 L42,68 Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M58,56 L66,56 L66,68 L58,74 Z" />
+    <!-- Gold apex crest accent -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M54,50 L57,57 L54,69 L51,57 Z" />
+</vector>

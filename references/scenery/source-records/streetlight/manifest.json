@@ -1,0 +1,19 @@
+{
+  "name": "Street Light",
+  "author": "Vaughan.Staehr",
+  "source": "https://sketchfab.com/3d-models/street-light-04a47d898e704e1a809d24433c409bf5",
+  "license": "CC BY 4.0",
+  "visualApproval": "approved",
+  "downloadStatus": "downloaded and validated",
+  "bytes": 1383024,
+  "sha256": "f415b52044e19f925ef9d6fcf950bfec9fe92ce1decba26b96daad0e72a1de10",
+  "meshes": 1,
+  "images": 3,
+  "externalDependencies": [],
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "file": "DRIP-RACE-approved-streetlight/street-light.glb",
+  "limitations": "Local rendering, scale/orientation checks, night illumination and A55 performance pending."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mountain-peak",
+    "source": "outputs/DRIP-RACE-scenery-prepared/mountain-peak-background-lod-candidate.glb",
+    "file": "outputs/DRIP-RACE-scenery-prepared/mountain-peak-far-lod-candidate.glb",
+    "sourceTriangles": 550768,
+    "candidateTriangles": 315380,
+    "bytes": 21406200,
+    "method": "Remove shading normals before exact weld, simplify with locked borders and 0.003 relative error, regenerate area-weighted smooth vertex normals. Preserve source UVs, base-color atlas and vertex colors. Distant-background candidate only.",
+    "status": "NEEDS_RENDERED_COMPARISON_AND_PHONE_TEST"
+  },
+  {
+    "id": "valley-complete-atlas",
+    "source": "outputs/DRIP-RACE-scenery-prepared/valley-complete-atlas-textures-1k.glb",
+    "file": "outputs/DRIP-RACE-scenery-prepared/valley-complete-atlas-far-lod-candidate.glb",
+    "sourceTriangles": 1999822,
+    "candidateTriangles": 555604,
+    "bytes": 47162288,
+    "method": "Remove shading normals before exact weld, simplify with locked borders and 0.003 relative error, regenerate area-weighted smooth vertex normals. Preserve source UVs, base-color atlas and vertex colors. Distant-background candidate only.",
+    "status": "NEEDS_RENDERED_COMPARISON_AND_PHONE_TEST"
+  }
+]

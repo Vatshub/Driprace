@@ -1,0 +1,213 @@
+[
+  {
+    "id": "valley-textured-section",
+    "sourcePath": "/Users/user/Desktop/cars glb/scenery/valley_between_two_mountains.glb",
+    "note": "Only six textured central terrain chunks; removes untextured overlapping outer terrain. Original complete source preserved.",
+    "selectedNodes": [
+      "meshNode_Material_u1_v1_0",
+      "meshNode_Material_u1_v1_0",
+      "meshNode_Material_u1_v1_0",
+      "meshNode_Material_u1_v1_0",
+      "meshNode_Material_u1_v1_0",
+      "meshNode_Material_u1_v1_0"
+    ],
+    "fullFile": "outputs/DRIP-RACE-scenery-prepared/valley-textured-section-source-textures.glb",
+    "fullBytes": 61268420,
+    "mobileFile": "outputs/DRIP-RACE-scenery-prepared/valley-textured-section-textures-1k.glb",
+    "mobileBytes": 23174136,
+    "geometryAttributesAndIndicesUnchanged": true,
+    "textures": [
+      {
+        "name": "",
+        "original": [
+          8192,
+          8192
+        ],
+        "mobile": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "needsVisualReview": true,
+    "phonePerformanceVerified": false,
+    "selectedForIntegration": false,
+    "status": "REJECTED_CANDIDATE: only scattered textured fragments; complete atlas repair supersedes this extraction."
+  },
+  {
+    "id": "traffic-cone",
+    "sourcePath": "/Users/user/Desktop/cars glb/scenery/barrier__traffic_cone_pack.glb",
+    "note": "One complete source cone, not full showcase.",
+    "selectedNodes": [
+      "Object_3"
+    ],
+    "fullFile": "outputs/DRIP-RACE-scenery-prepared/traffic-cone-source-textures.glb",
+    "fullBytes": 2996180,
+    "mobileFile": "outputs/DRIP-RACE-scenery-prepared/traffic-cone-textures-1k.glb",
+    "mobileBytes": 554576,
+    "geometryAttributesAndIndicesUnchanged": true,
+    "textures": [
+      {
+        "name": "",
+        "original": [
+          2048,
+          2048
+        ],
+        "mobile": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "",
+        "original": [
+          2048,
+          2048
+        ],
+        "mobile": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "",
+        "original": [
+          2048,
+          2048
+        ],
+        "mobile": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "needsVisualReview": true,
+    "phonePerformanceVerified": false,
+    "selectedForIntegration": true,
+    "status": "Prepared; see latest browser checks for exact version."
+  },
+  {
+    "id": "city-skyline-cluster",
+    "sourcePath": "/Users/user/Desktop/cars glb/scenery/low-poly_city_buildings.glb",
+    "note": "Building cluster excluding showcase ground plane; roof/detail meshes retained with all buildings.",
+    "selectedNodes": [
+      "Object_4",
+      "Object_6",
+      "Object_10",
+      "Object_12",
+      "Object_14",
+      "Object_16",
+      "Object_18",
+      "Object_20",
+      "Object_22",
+      "Object_24",
+      "Object_26",
+      "Object_28",
+      "Object_30",
+      "Object_32",
+      "Object_34",
+      "Object_36",
+      "Object_38",
+      "Object_40",
+      "Object_42",
+      "Object_44",
+      "Object_46"
+    ],
+    "fullFile": "outputs/DRIP-RACE-scenery-prepared/city-skyline-cluster-source-textures.glb",
+    "fullBytes": 28740808,
+    "mobileFile": "outputs/DRIP-RACE-scenery-prepared/city-skyline-cluster-textures-1k.glb",
+    "mobileBytes": 3172936,
+    "geometryAttributesAndIndicesUnchanged": true,
+    "textures": [
+      {
+        "name": "",
+        "original": [
+          4096,
+          4096
+        ],
+        "mobile": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "",
+        "original": [
+          4096,
+          4096
+        ],
+        "mobile": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "",
+        "original": [
+          4096,
+          4096
+        ],
+        "mobile": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "needsVisualReview": true,
+    "phonePerformanceVerified": false,
+    "selectedForIntegration": true,
+    "status": "Prepared; see latest browser checks for exact version."
+  },
+  {
+    "id": "roadwork-barricade",
+    "sourcePath": "/Users/user/Desktop/cars glb/scenery/barrier__traffic_cone_pack.glb",
+    "note": "One complete source striped roadwork barricade, not full showcase.",
+    "selectedNodes": [
+      "Object_19"
+    ],
+    "fullFile": "outputs/DRIP-RACE-scenery-prepared/roadwork-barricade-source-textures.glb",
+    "fullBytes": 4326136,
+    "mobileFile": "outputs/DRIP-RACE-scenery-prepared/roadwork-barricade-textures-1k.glb",
+    "mobileBytes": 762696,
+    "geometryAttributesAndIndicesUnchanged": true,
+    "textures": [
+      {
+        "name": "",
+        "original": [
+          2048,
+          2048
+        ],
+        "mobile": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "",
+        "original": [
+          2048,
+          2048
+        ],
+        "mobile": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "",
+        "original": [
+          2048,
+          2048
+        ],
+        "mobile": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "needsVisualReview": true,
+    "phonePerformanceVerified": false,
+    "selectedForIntegration": true,
+    "status": "Prepared; see latest browser checks for exact version."
+  }
+]

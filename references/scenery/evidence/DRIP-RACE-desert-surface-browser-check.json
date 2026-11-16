@@ -1,0 +1,51 @@
+[
+  {
+    "id": "desert-mars-sand",
+    "name": "Mars-derived terrain · sand · surface only",
+    "loaded": true,
+    "sourceDimensions": [
+      24.99553108215332,
+      3.618903636932373,
+      13.95775032043457
+    ],
+    "parts": [
+      {
+        "name": "Object_2",
+        "nodeIndex": 2,
+        "meshIndex": 0,
+        "vertices": 21979,
+        "triangles": 40799,
+        "sourceBounds": {
+          "min": [
+            -12.49776554107666,
+            0.17911648750305176,
+            -6.978873252868652
+          ],
+          "max": [
+            12.49776554107666,
+            3.798020124435425,
+            6.978877067565918
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 1,
+        "triangles": 40799
+      },
+      {
+        "view": "View B",
+        "drawCalls": 1,
+        "triangles": 40799
+      },
+      {
+        "view": "High view",
+        "drawCalls": 1,
+        "triangles": 40799
+      }
+    ],
+    "phonePerformanceTested": false
+  }
+]

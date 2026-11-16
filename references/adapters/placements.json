@@ -1,0 +1,128 @@
+[
+  {
+    "id": "starter_sports",
+    "sourcePath": "/Users/user/Documents/Codex/2026-11-14/referenced-chatgpt-conversation-this-is-an/outputs/DRIP-RACE-carconcept-unbranded-candidate/CarConcept-unbranded.glb",
+    "sourceSha256": "c4246bb38128e6a129af8e176bb8d9474c961fdc713d854b34805cd41e6c7008",
+    "yawRadians": 0,
+    "targetLengthMeters": 4.357386,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "super_racing",
+    "sourcePath": "/Users/user/Documents/Codex/2026-11-14/referenced-chatgpt-conversation-this-is-an/outputs/DRIP-RACE-veloce-repaired/veloce-atelier-metallic-repaired.glb",
+    "sourceSha256": "14ad19d473dc693dbea05d5cbcd9739d57c3f672ae3a5021ec6e6343ce7d367d",
+    "yawRadians": 0,
+    "targetLengthMeters": 4.693,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "muscle",
+    "sourcePath": "/Users/user/Desktop/cars glb/crimson-v8-shaker-muscle-car.glb",
+    "sourceSha256": "89688f9e5c90dbdbf9749f2405cff88644ad21511f28512eaa872730ffd8d38b",
+    "yawRadians": 0,
+    "targetLengthMeters": 4.97,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "hyper_sports",
+    "sourcePath": "/Users/user/Desktop/cars glb/nissan_gtrs_-_max_nfs_most_wanted_bmw_version.glb",
+    "sourceSha256": "1828ca21a3ab001664fc4ccbb2265082d260c1ca2663d7e42100b9113a5e0cd5",
+    "yawRadians": 1.5707963267948966,
+    "targetLengthMeters": 4.7,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "legendary_supercar",
+    "sourcePath": "/Users/user/Desktop/cars glb/bmw_m4_modified_widebody.glb",
+    "sourceSha256": "37e1125fedba9ee49c484040025483bfec5aca196d4201309d73e8135019f5ee",
+    "yawRadians": 0,
+    "targetLengthMeters": 4.8,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "generic-sedan-mmcworks",
+    "sourcePath": "/Users/user/Documents/Codex/2026-11-14/referenced-chatgpt-conversation-this-is-an/outputs/DRIP-RACE-traffic-integration/public/assets/traffic/generic-sedan-mmcworks.glb",
+    "sourceSha256": "e51286cbd9d1e582aeaa35450bf426b21d47107206daaa254d5b567825446665",
+    "yawRadians": 0,
+    "targetLengthMeters": 4.978,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "mmc-generic-small-suv",
+    "sourcePath": "/Users/user/Documents/Codex/2026-11-14/referenced-chatgpt-conversation-this-is-an/outputs/DRIP-RACE-traffic-integration/public/assets/traffic/mmc-generic-small-suv.glb",
+    "sourceSha256": "83956983258e64bc643fe1bded2eb32d175eb9e72052334980a2a8aad77b0773",
+    "yawRadians": 0,
+    "targetLengthMeters": 4.194,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "european-delivery-van",
+    "sourcePath": "/Users/user/Documents/Codex/2026-11-14/referenced-chatgpt-conversation-this-is-an/outputs/DRIP-RACE-traffic-integration/public/assets/traffic/european-delivery-van.glb",
+    "sourceSha256": "624fe078f7d8741b2e80a9f9a754cbe9b63ac3e560a6845be653bf292345acff",
+    "yawRadians": 0,
+    "targetLengthMeters": 5.372,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "conquer-89-pickup",
+    "sourcePath": "/Users/user/Documents/Codex/2026-11-14/referenced-chatgpt-conversation-this-is-an/outputs/DRIP-RACE-traffic-integration/public/assets/traffic/conquer-89-pickup.glb",
+    "sourceSha256": "bf2c8ca11daa135f7499bff194f4f7400202d1f14ccfc13e74686f5273448932",
+    "yawRadians": -1.5707963267948966,
+    "targetLengthMeters": 5.219,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "lct-3000-95",
+    "sourcePath": "/Users/user/Documents/Codex/2026-11-14/referenced-chatgpt-conversation-this-is-an/outputs/DRIP-RACE-traffic-integration/public/assets/traffic/lct-3000-95.glb",
+    "sourceSha256": "6cc4dd05a1f0fe056580e942e5bb0cdbdd57f052253684a72b45daf5af21a7d8",
+    "yawRadians": -1.5707963267948966,
+    "targetLengthMeters": 6.024,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "generic-town-bus",
+    "sourcePath": "/Users/user/Documents/Codex/2026-11-14/referenced-chatgpt-conversation-this-is-an/outputs/DRIP-RACE-traffic-integration/public/assets/traffic/generic-town-bus.glb",
+    "sourceSha256": "d0b9a7acd1a2c269fd3184b8caf09ffde149fb9fed9f0c5c233f01aeb40ab8fd",
+    "yawRadians": 1.5707963267948966,
+    "targetLengthMeters": 11.5,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "old_car",
+    "sourcePath": "/Users/user/Desktop/cars glb/old_car.glb",
+    "sourceSha256": "04eb9209abfdd21f695303baf04633e5e5fb3422c643439e07394931fec6d253",
+    "yawRadians": 1.5707963267948966,
+    "targetLengthMeters": 4.5,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "post-apocalypse__derby_car_-_olpen_aster",
+    "sourcePath": "/Users/user/Desktop/cars glb/post-apocalypse__derby_car_-_olpen_aster.glb",
+    "sourceSha256": "9151e4e2cd52c1dc350fdfd4e49c2b8fae68b17074808adf37dd8f1eadbe22a8",
+    "yawRadians": 3.141592653589793,
+    "targetLengthMeters": 4.5,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  },
+  {
+    "id": "post-apocalypse__derby_car_toytyta_doubtlux",
+    "sourcePath": "/Users/user/Desktop/cars glb/post-apocalypse__derby_car_toytyta_doubtlux.glb",
+    "sourceSha256": "aee15ac7c871d92b1d44eef00ee088c6cc76d47c6a9fa4246cd0a33612dfbe39",
+    "yawRadians": 1.5707963267948966,
+    "targetLengthMeters": 5.158,
+    "placement": "Rotate wrapper, scale uniformly to target Z length using precise loaded bounds, center X/Z and place minimum Y on ground. Starter front-wheel correction applied first.",
+    "status": "Forward sign visually inspected; target sizes are game placement choices, not manufacturer specifications. Wheel/paint integration incomplete."
+  }
+]

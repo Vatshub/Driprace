@@ -1,0 +1,20 @@
+{
+  "name": "Singapore Office Skyscraper [FREE]",
+  "author": "99.Miles",
+  "source": "https://sketchfab.com/3d-models/singapore-office-skyscraper-free-2305f0fe03ba44229a1f768dcb48bd8f",
+  "license": "CC BY 4.0",
+  "visualApproval": "approved",
+  "downloadStatus": "downloaded and validated",
+  "bytes": 9638372,
+  "sha256": "b4a3b40029908f8289223df5c435f510262feda4b65f068b484784bdd9682bbc",
+  "meshes": 8,
+  "images": 14,
+  "externalDependencies": [],
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "file": "DRIP-RACE-approved-skyscraper/skyscraper.glb",
+  "textureOption": "official 1K GLB",
+  "limitations": "Local rendered appearance, scale/orientation and A55 performance pending."
+}

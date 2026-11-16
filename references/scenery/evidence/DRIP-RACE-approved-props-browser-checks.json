@@ -1,0 +1,940 @@
+[
+  {
+    "id": "guardrail",
+    "name": "guardrail · approved source",
+    "loaded": true,
+    "sourceDimensions": [
+      4.336241759904998,
+      1.0941581180433755,
+      0.397364877807625
+    ],
+    "parts": [
+      {
+        "name": "GuardRail_terminal_CrashBarrier_2rails_M_0",
+        "nodeIndex": 4,
+        "meshIndex": 0,
+        "vertices": 1030,
+        "triangles": 1232,
+        "sourceBounds": {
+          "min": [
+            3.3624810873907545,
+            -0.02940709263130544,
+            -0.13779138571847205
+          ],
+          "max": [
+            4.336242445344272,
+            1.06475102541207,
+            0.25063636261257144
+          ]
+        }
+      },
+      {
+        "name": "GuardRail_CrashBarrier_2rails_M_0",
+        "nodeIndex": 6,
+        "meshIndex": 1,
+        "vertices": 1584,
+        "triangles": 1704,
+        "sourceBounds": {
+          "min": [
+            6.854392740066433e-7,
+            -0.013124358653055713,
+            -0.1467285151950536
+          ],
+          "max": [
+            3.9999997988343265,
+            1.0506999624596018,
+            0.24169922548500228
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 2,
+        "triangles": 2936
+      },
+      {
+        "view": "View B",
+        "drawCalls": 2,
+        "triangles": 2936
+      },
+      {
+        "view": "High view",
+        "drawCalls": 2,
+        "triangles": 2936
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "concrete-barrier",
+    "name": "concrete-barrier · approved source",
+    "loaded": true,
+    "sourceDimensions": [
+      2,
+      1.0000000122578965,
+      0.4000000075215727
+    ],
+    "parts": [
+      {
+        "name": "defaultMaterial",
+        "nodeIndex": 3,
+        "meshIndex": 0,
+        "vertices": 784,
+        "triangles": 1156,
+        "sourceBounds": {
+          "min": [
+            -1,
+            -0.5000000085237204,
+            -0.20000002461737057
+          ],
+          "max": [
+            1,
+            0.5000000037341762,
+            0.19999998290420218
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 1,
+        "triangles": 1156
+      },
+      {
+        "view": "View B",
+        "drawCalls": 1,
+        "triangles": 1156
+      },
+      {
+        "view": "High view",
+        "drawCalls": 1,
+        "triangles": 1156
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "road-signs",
+    "name": "road-signs · approved source",
+    "loaded": true,
+    "sourceDimensions": [
+      5.742594933898857,
+      3.024735039813777,
+      0.08626522586646912
+    ],
+    "parts": [
+      {
+        "name": "Road_Sign_01_MAT_RoadSign_0",
+        "nodeIndex": 4,
+        "meshIndex": 0,
+        "vertices": 272,
+        "triangles": 248,
+        "sourceBounds": {
+          "min": [
+            -0.37129752282878314,
+            -0.9860047692208411,
+            -0.033041097379302276
+          ],
+          "max": [
+            0.37129752282878314,
+            2.0387302705929358,
+            0.053224128487166844
+          ]
+        }
+      },
+      {
+        "name": "Road_Sign_02_MAT_RoadSign_0",
+        "nodeIndex": 6,
+        "meshIndex": 1,
+        "vertices": 272,
+        "triangles": 248,
+        "sourceBounds": {
+          "min": [
+            0.6287024548194751,
+            -0.9860047692208411,
+            -0.033041097379302276
+          ],
+          "max": [
+            1.3712975004770414,
+            2.0387302705929358,
+            0.053224128487166844
+          ]
+        }
+      },
+      {
+        "name": "Road_Sign_03_MAT_RoadSign_0",
+        "nodeIndex": 8,
+        "meshIndex": 2,
+        "vertices": 272,
+        "triangles": 248,
+        "sourceBounds": {
+          "min": [
+            1.6287024324677333,
+            -0.9860047692208411,
+            -0.033041097379302276
+          ],
+          "max": [
+            2.3712974781252996,
+            2.0387302705929358,
+            0.053224128487166844
+          ]
+        }
+      },
+      {
+        "name": "Road_Sign_04_MAT_RoadSign_0",
+        "nodeIndex": 10,
+        "meshIndex": 3,
+        "vertices": 272,
+        "triangles": 248,
+        "sourceBounds": {
+          "min": [
+            2.6287024101159915,
+            -0.9860047692208411,
+            -0.033041097379302276
+          ],
+          "max": [
+            3.3712974557735578,
+            2.0387302705929358,
+            0.053224128487166844
+          ]
+        }
+      },
+      {
+        "name": "Road_Sign_05_MAT_RoadSign_0",
+        "nodeIndex": 12,
+        "meshIndex": 4,
+        "vertices": 272,
+        "triangles": 248,
+        "sourceBounds": {
+          "min": [
+            3.6287023877642497,
+            -0.9860047692208411,
+            -0.033041097379302276
+          ],
+          "max": [
+            4.371297433421816,
+            2.0387302705929358,
+            0.053224128487166844
+          ]
+        }
+      },
+      {
+        "name": "Road_Sign_06_MAT_RoadSign_0",
+        "nodeIndex": 14,
+        "meshIndex": 5,
+        "vertices": 272,
+        "triangles": 248,
+        "sourceBounds": {
+          "min": [
+            4.628702365412508,
+            -0.9860047692208411,
+            -0.033041097379302276
+          ],
+          "max": [
+            5.371297411070074,
+            2.0387302705929358,
+            0.053224128487166844
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 6,
+        "triangles": 1488
+      },
+      {
+        "view": "View B",
+        "drawCalls": 6,
+        "triangles": 1488
+      },
+      {
+        "view": "High view",
+        "drawCalls": 6,
+        "triangles": 1488
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "rocks",
+    "name": "rocks · approved source",
+    "loaded": true,
+    "sourceDimensions": [
+      8.004603862762451,
+      1.768319845199585,
+      6.948764681816101
+    ],
+    "parts": [
+      {
+        "name": "rock_moss_set_01_rock01",
+        "nodeIndex": 0,
+        "meshIndex": 0,
+        "vertices": 6078,
+        "triangles": 11000,
+        "sourceBounds": {
+          "min": [
+            -3.9140208959579468,
+            -0.6565686464309692,
+            -3.823821544647217
+          ],
+          "max": [
+            -1.6763887405395508,
+            0.8161294460296631,
+            -0.45501720905303955
+          ]
+        }
+      },
+      {
+        "name": "rock_moss_set_01_rock02",
+        "nodeIndex": 1,
+        "meshIndex": 1,
+        "vertices": 6192,
+        "triangles": 10996,
+        "sourceBounds": {
+          "min": [
+            -1.2730549573898315,
+            -0.4656194746494293,
+            -3.767195701599121
+          ],
+          "max": [
+            1.3823258876800537,
+            0.7963716983795166,
+            -0.5034753084182739
+          ]
+        }
+      },
+      {
+        "name": "rock_moss_set_01_rock03",
+        "nodeIndex": 2,
+        "meshIndex": 2,
+        "vertices": 2741,
+        "triangles": 5000,
+        "sourceBounds": {
+          "min": [
+            1.9820003509521484,
+            -0.4108721911907196,
+            -3.146401047706604
+          ],
+          "max": [
+            4.090582966804504,
+            0.6888222694396973,
+            -1.0668153762817383
+          ]
+        }
+      },
+      {
+        "name": "rock_moss_set_01_rock04",
+        "nodeIndex": 3,
+        "meshIndex": 3,
+        "vertices": 5691,
+        "triangles": 10589,
+        "sourceBounds": {
+          "min": [
+            -3.650278866291046,
+            -0.6609705686569214,
+            0.6897996664047241
+          ],
+          "max": [
+            -1.5226495265960693,
+            1.1073492765426636,
+            2.654541015625
+          ]
+        }
+      },
+      {
+        "name": "rock_moss_set_01_rock05",
+        "nodeIndex": 4,
+        "meshIndex": 4,
+        "vertices": 8538,
+        "triangles": 16548,
+        "sourceBounds": {
+          "min": [
+            -0.7106676399707794,
+            -0.5725544691085815,
+            0.12627935409545898
+          ],
+          "max": [
+            1.1066551506519318,
+            0.6328962445259094,
+            3.1249431371688843
+          ]
+        }
+      },
+      {
+        "name": "rock_moss_set_01_rock06",
+        "nodeIndex": 5,
+        "meshIndex": 5,
+        "vertices": 4748,
+        "triangles": 8994,
+        "sourceBounds": {
+          "min": [
+            1.5992227792739868,
+            -0.5280566811561584,
+            0.09707248210906982
+          ],
+          "max": [
+            3.7252050042152405,
+            0.7337960004806519,
+            2.8543756008148193
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 6,
+        "triangles": 63127
+      },
+      {
+        "view": "View B",
+        "drawCalls": 6,
+        "triangles": 63127
+      },
+      {
+        "view": "High view",
+        "drawCalls": 6,
+        "triangles": 63127
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "streetlight",
+    "name": "streetlight · approved source",
+    "loaded": true,
+    "sourceDimensions": [
+      2.8582980632781982,
+      15.713397979736328,
+      2.858297824859619
+    ],
+    "parts": [
+      {
+        "name": "Object_2",
+        "nodeIndex": 2,
+        "meshIndex": 0,
+        "vertices": 3850,
+        "triangles": 4468,
+        "sourceBounds": {
+          "min": [
+            -1.4291490316390991,
+            -0.30494499206542985,
+            -1.44078183174133
+          ],
+          "max": [
+            1.4291490316390991,
+            15.408452987670898,
+            1.4175159931182895
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 1,
+        "triangles": 4468
+      },
+      {
+        "view": "View B",
+        "drawCalls": 1,
+        "triangles": 4468
+      },
+      {
+        "view": "High view",
+        "drawCalls": 1,
+        "triangles": 4468
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "skyscraper",
+    "name": "skyscraper · approved source",
+    "loaded": true,
+    "sourceDimensions": [
+      59.28230667114258,
+      105.80808639526367,
+      56.43951416015625
+    ],
+    "parts": [
+      {
+        "name": "Object_4",
+        "nodeIndex": 4,
+        "meshIndex": 0,
+        "vertices": 50,
+        "triangles": 48,
+        "sourceBounds": {
+          "min": [
+            -9.11825942993164,
+            101.46113586425781,
+            -31.801576614379883
+          ],
+          "max": [
+            42.828487396240234,
+            106.93648529052734,
+            1.3978042602539062
+          ]
+        }
+      },
+      {
+        "name": "Object_6",
+        "nodeIndex": 6,
+        "meshIndex": 1,
+        "vertices": 372,
+        "triangles": 277,
+        "sourceBounds": {
+          "min": [
+            -14.629173278808594,
+            2.1970977783203125,
+            -52.27775764465332
+          ],
+          "max": [
+            42.814430236816406,
+            35.45685958862305,
+            3.209615707397461
+          ]
+        }
+      },
+      {
+        "name": "Object_8",
+        "nodeIndex": 8,
+        "meshIndex": 2,
+        "vertices": 21786,
+        "triangles": 11176,
+        "sourceBounds": {
+          "min": [
+            -15.515460968017578,
+            10.701705932617188,
+            -38.45671844482422
+          ],
+          "max": [
+            43.766845703125,
+            30.346797943115234,
+            4.16175651550293
+          ]
+        }
+      },
+      {
+        "name": "Object_10",
+        "nodeIndex": 10,
+        "meshIndex": 3,
+        "vertices": 172,
+        "triangles": 96,
+        "sourceBounds": {
+          "min": [
+            -14.974769592285156,
+            11.904033660888672,
+            -37.14208793640137
+          ],
+          "max": [
+            43.160011291503906,
+            28.93396759033203,
+            3.555227279663086
+          ]
+        }
+      },
+      {
+        "name": "Object_12",
+        "nodeIndex": 12,
+        "meshIndex": 4,
+        "vertices": 22496,
+        "triangles": 12958,
+        "sourceBounds": {
+          "min": [
+            -15.170989990234375,
+            2.1970977783203125,
+            -52.27775764465332
+          ],
+          "max": [
+            43.69055366516113,
+            108.00518417358398,
+            3.7514286041259766
+          ]
+        }
+      },
+      {
+        "name": "Object_14",
+        "nodeIndex": 14,
+        "meshIndex": 5,
+        "vertices": 764,
+        "triangles": 404,
+        "sourceBounds": {
+          "min": [
+            -14.808063507080078,
+            10.947071075439453,
+            -37.899370193481445
+          ],
+          "max": [
+            43.28325176239014,
+            29.7841796875,
+            3.4971866607666016
+          ]
+        }
+      },
+      {
+        "name": "Object_16",
+        "nodeIndex": 16,
+        "meshIndex": 6,
+        "vertices": 927,
+        "triangles": 680,
+        "sourceBounds": {
+          "min": [
+            -14.976364135742188,
+            11.02694320678711,
+            -38.40772247314453
+          ],
+          "max": [
+            43.16161775588989,
+            29.713600158691406,
+            3.556802749633789
+          ]
+        }
+      },
+      {
+        "name": "Object_18",
+        "nodeIndex": 18,
+        "meshIndex": 7,
+        "vertices": 1382,
+        "triangles": 752,
+        "sourceBounds": {
+          "min": [
+            -9.263790130615234,
+            2.2972640991210938,
+            -39.426225662231445
+          ],
+          "max": [
+            42.94933319091797,
+            99.02079391479492,
+            1.0271244049072266
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 11,
+        "triangles": 27287
+      },
+      {
+        "view": "View B",
+        "drawCalls": 11,
+        "triangles": 27287
+      },
+      {
+        "view": "High view",
+        "drawCalls": 11,
+        "triangles": 27287
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "rock-face",
+    "name": "rock-face · approved source",
+    "loaded": true,
+    "sourceDimensions": [
+      2.711196154356003,
+      2.471966937184334,
+      2.126700222492218
+    ],
+    "parts": [
+      {
+        "name": "rock_face_02",
+        "nodeIndex": 0,
+        "meshIndex": 0,
+        "vertices": 16396,
+        "triangles": 29566,
+        "sourceBounds": {
+          "min": [
+            -2.2611024379730225,
+            -0.13961930572986603,
+            -1.188185453414917
+          ],
+          "max": [
+            0.45009371638298035,
+            2.3323476314544678,
+            0.938514769077301
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 1,
+        "triangles": 29566
+      },
+      {
+        "view": "View B",
+        "drawCalls": 1,
+        "triangles": 29566
+      },
+      {
+        "view": "High view",
+        "drawCalls": 1,
+        "triangles": 29566
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "pine-medium-1-lod0",
+    "name": "Pine medium · authored LOD 0",
+    "loaded": true,
+    "sourceDimensions": [
+      5.710644062869623,
+      11.999999999999998,
+      4.800638484825138
+    ],
+    "parts": [
+      {
+        "name": "Pine_medium_1_LOD0_Bark_Mat_0",
+        "nodeIndex": 5,
+        "meshIndex": 0,
+        "vertices": 1577,
+        "triangles": 2147,
+        "sourceBounds": {
+          "min": [
+            -1.8863282250348221,
+            -1.1102230246251565e-16,
+            -1.4400369672563549
+          ],
+          "max": [
+            1.6575592576004676,
+            10.683302828530287,
+            1.7275149586777958
+          ]
+        }
+      },
+      {
+        "name": "Pine_medium_1_LOD0_Clusters_Mat_0",
+        "nodeIndex": 6,
+        "meshIndex": 1,
+        "vertices": 3210,
+        "triangles": 2278,
+        "sourceBounds": {
+          "min": [
+            -2.855322031434815,
+            4.101120464714499,
+            -2.400319242412569
+          ],
+          "max": [
+            2.8553220314348073,
+            11.999999999999998,
+            2.400319242412569
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 3,
+        "triangles": 6703
+      },
+      {
+        "view": "View B",
+        "drawCalls": 3,
+        "triangles": 6703
+      },
+      {
+        "view": "High view",
+        "drawCalls": 3,
+        "triangles": 6703
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "pine-medium-1-lod1",
+    "name": "Pine medium · authored LOD 1",
+    "loaded": true,
+    "sourceDimensions": [
+      5.710644062869623,
+      11.999999999999998,
+      4.800638484825138
+    ],
+    "parts": [
+      {
+        "name": "Pine_medium_1_LOD1_Bark_Mat_0",
+        "nodeIndex": 5,
+        "meshIndex": 0,
+        "vertices": 955,
+        "triangles": 1223,
+        "sourceBounds": {
+          "min": [
+            -1.8863282250348221,
+            -1.1102230246251565e-16,
+            -1.4400369672563549
+          ],
+          "max": [
+            1.6575592576004676,
+            10.683302828530287,
+            1.7275149586777958
+          ]
+        }
+      },
+      {
+        "name": "Pine_medium_1_LOD1_Clusters_Mat_0",
+        "nodeIndex": 6,
+        "meshIndex": 1,
+        "vertices": 1327,
+        "triangles": 1132,
+        "sourceBounds": {
+          "min": [
+            -2.855322031434815,
+            4.101120464714499,
+            -2.400319242412569
+          ],
+          "max": [
+            2.8553220314348073,
+            11.999999999999998,
+            2.400319242412569
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 3,
+        "triangles": 3487
+      },
+      {
+        "view": "View B",
+        "drawCalls": 3,
+        "triangles": 3487
+      },
+      {
+        "view": "High view",
+        "drawCalls": 3,
+        "triangles": 3487
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "pine-medium-1-lod2",
+    "name": "Pine medium · authored LOD 2",
+    "loaded": true,
+    "sourceDimensions": [
+      5.49777708774514,
+      11.999999999999998,
+      4.687008349293304
+    ],
+    "parts": [
+      {
+        "name": "Pine_medium_1_LOD2_Bark_Mat_0",
+        "nodeIndex": 5,
+        "meshIndex": 0,
+        "vertices": 705,
+        "triangles": 829,
+        "sourceBounds": {
+          "min": [
+            -1.8863282250348221,
+            -1.1102230246251565e-16,
+            -1.4400369672563549
+          ],
+          "max": [
+            1.6575592576004676,
+            10.683302828530287,
+            1.7275149586777958
+          ]
+        }
+      },
+      {
+        "name": "Pine_medium_1_LOD2_Clusters_Mat_0",
+        "nodeIndex": 6,
+        "meshIndex": 1,
+        "vertices": 496,
+        "triangles": 424,
+        "sourceBounds": {
+          "min": [
+            -2.7673289252980537,
+            4.230971696211938,
+            -2.289503743756215
+          ],
+          "max": [
+            2.730448162447086,
+            11.999999999999998,
+            2.3975046055370894
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 3,
+        "triangles": 1677
+      },
+      {
+        "view": "View B",
+        "drawCalls": 3,
+        "triangles": 1677
+      },
+      {
+        "view": "High view",
+        "drawCalls": 3,
+        "triangles": 1677
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "desert-mars-sand",
+    "name": "Mars-derived sand terrain · top surface · final candidate",
+    "loaded": true,
+    "sourceDimensions": [
+      24.99553108215332,
+      3.6193958818912506,
+      13.957752704620361
+    ],
+    "parts": [
+      {
+        "name": "Object_2",
+        "nodeIndex": 2,
+        "meshIndex": 0,
+        "vertices": 22743,
+        "triangles": 41351,
+        "sourceBounds": {
+          "min": [
+            -12.49776554107666,
+            0.1786242425441742,
+            -6.978875637054443
+          ],
+          "max": [
+            12.49776554107666,
+            3.798020124435425,
+            6.978877067565918
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 1,
+        "triangles": 41351
+      },
+      {
+        "view": "View B",
+        "drawCalls": 1,
+        "triangles": 41351
+      },
+      {
+        "view": "High view",
+        "drawCalls": 1,
+        "triangles": 41351
+      }
+    ],
+    "phonePerformanceTested": false
+  }
+]

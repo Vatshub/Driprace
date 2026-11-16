@@ -1,0 +1,141 @@
+{
+  "scope": "Private DRIP RACE homework, staged integration; not a completed scene or phone benchmark",
+  "entries": [
+    {
+      "id": "traffic-cone",
+      "runtimeUrl": "/assets/scenery/traffic-cone-textures-1k.glb",
+      "bytes": 554576,
+      "sha256": "3471e63324df6de48382b52c6773135e5921d6ce97fc4ee2daedbff2a9ef0c2f",
+      "author": "Sabri Aye\u015f",
+      "recordedLicense": "CC BY 4.0",
+      "status": "Prepared integration candidate; rendered and validator-checked, actual-phone performance NOT RUN"
+    },
+    {
+      "id": "roadwork-barricade",
+      "runtimeUrl": "/assets/scenery/roadwork-barricade-textures-1k.glb",
+      "bytes": 762696,
+      "sha256": "d0993718dfe8a9090457fe03dcf5b864d3804e714b483ba662b2d0eb08d6dd27",
+      "author": "Sabri Aye\u015f",
+      "recordedLicense": "CC BY 4.0",
+      "status": "Prepared integration candidate; rendered and validator-checked, actual-phone performance NOT RUN"
+    },
+    {
+      "id": "city-skyline-cluster",
+      "runtimeUrl": "/assets/scenery/city-skyline-cluster-textures-1k.glb",
+      "bytes": 3172936,
+      "sha256": "4e623dca9a20bfb54d7fa392e21b1ddc9c73e912bc39d9132ba350726a4babba",
+      "author": "smooth998",
+      "recordedLicense": "CC BY 4.0",
+      "status": "Prepared integration candidate; rendered and validator-checked, actual-phone performance NOT RUN"
+    },
+    {
+      "id": "mountain-peak",
+      "runtimeUrl": "/assets/scenery/mountain-peak-far-lod-candidate.glb",
+      "bytes": 21406200,
+      "sha256": "95a2b4aa889b2f8cbd5ec6a4d11f4672c88cad4cf95f577f571024f2727d8ca0",
+      "author": "Metazeon",
+      "recordedLicense": "CC BY 4.0",
+      "status": "Prepared integration candidate; rendered and validator-checked, actual-phone performance NOT RUN"
+    },
+    {
+      "id": "valley-complete-atlas",
+      "runtimeUrl": "/assets/scenery/valley-complete-atlas-far-lod-candidate.glb",
+      "bytes": 47162288,
+      "sha256": "1c772ca2de798f3e00f779c7caeddb3041bdbfc741977d9558833c58f4d55a38",
+      "author": "Ramzi Sfeir",
+      "recordedLicense": "CC BY 4.0",
+      "status": "Prepared integration candidate; rendered and validator-checked, actual-phone performance NOT RUN"
+    },
+    {
+      "id": "desert-mars-sand",
+      "runtimeUrl": "/assets/scenery/desert-mars-sand-1k-lod-candidate.glb",
+      "bytes": 4039648,
+      "sha256": "abb8c7def4328f7385a98a3fca4dd83ed940ee4e616ab72ecbeb69318f609350",
+      "author": "OrganicComputer / Rob Tuytel",
+      "recordedLicense": "CC BY 4.0 geometry; CC0 sand maps",
+      "status": "Prepared integration candidate; rendered and validator-checked, actual-phone performance NOT RUN"
+    },
+    {
+      "id": "pine-medium-lod-set",
+      "runtimeUrl": "/assets/scenery/pine-medium-1-lod-set.glb",
+      "bytes": 7398052,
+      "sha256": "99d0cee29a4cb4cd5fc294c4d854ef02ecf9bcd93899fe0a1e4855da7a14978d",
+      "author": "LOLIPOP",
+      "recordedLicense": "CC BY 4.0",
+      "status": "Prepared integration candidate; rendered and validator-checked, actual-phone performance NOT RUN"
+    },
+    {
+      "id": "guardrail",
+      "runtimeUrl": "/assets/scenery/guardrail/guardrail-and-terminal.glb",
+      "status": "Approved source copied with all local glTF dependencies; current loaded browser checks retained",
+      "sha256": "73f136c7b826f35f5ca0bcbb6176517a25ef1f56ed9a20aa028641993ebafb8a"
+    },
+    {
+      "id": "concrete-barrier",
+      "runtimeUrl": "/assets/scenery/concrete-barrier/concrete-barrier.glb",
+      "status": "Approved source copied with all local glTF dependencies; current loaded browser checks retained",
+      "sha256": "495e001730800699bb9af51416bc5c4470ecb86eeb76bd088255b273c752fc1e"
+    },
+    {
+      "id": "road-signs",
+      "runtimeUrl": "/assets/scenery/road-signs/road-signs.glb",
+      "status": "Approved source copied with all local glTF dependencies; current loaded browser checks retained",
+      "sha256": "7b18be91dc801431a61bb7bb0ac25bc457d831379a180803c50319378ca6e033"
+    },
+    {
+      "id": "rocks",
+      "runtimeUrl": "/assets/scenery/rocks/rock_moss_set_01_1k.gltf",
+      "status": "Approved source copied with all local glTF dependencies; current loaded browser checks retained",
+      "sha256": "c36675aca9c6b2be7785c2534cf413b03ec82a5a2a5407a2b1c0cdb0346c9727"
+    },
+    {
+      "id": "streetlight",
+      "runtimeUrl": "/assets/scenery/streetlight/street-light.glb",
+      "status": "Approved source copied with all local glTF dependencies; current loaded browser checks retained",
+      "sha256": "f415b52044e19f925ef9d6fcf950bfec9fe92ce1decba26b96daad0e72a1de10"
+    },
+    {
+      "id": "skyscraper",
+      "runtimeUrl": "/assets/scenery/skyscraper/skyscraper.glb",
+      "status": "Approved source copied with all local glTF dependencies; current loaded browser checks retained",
+      "sha256": "b4a3b40029908f8289223df5c435f510262feda4b65f068b484784bdd9682bbc"
+    },
+    {
+      "id": "rock-face",
+      "runtimeUrl": "/assets/scenery/rock-face/rock_face_02_2k.gltf",
+      "status": "Approved source copied with all local glTF dependencies; current loaded browser checks retained",
+      "sha256": "532c5662536c59dde08e1ab3e0985addcf555d7c6bd9c4ee6957c6e5a7c200c6"
+    },
+    {
+      "id": "sand",
+      "runtimeFolder": "/assets/scenery/sand",
+      "status": "Approved source material maps; runtime material setup still required"
+    },
+    {
+      "id": "grass",
+      "runtimeFolder": "/assets/scenery/grass",
+      "status": "Approved source material maps; runtime material setup still required"
+    },
+    {
+      "id": "sunset-sky",
+      "runtimeUrl": "/assets/sky/sunset-1k.hdr",
+      "sha256": "27504c5dd20ffc8490537b152860b80ec9c2bf2832ab28ebd2b6e9f475627411",
+      "recordedLicense": "CC0",
+      "status": "Previously selected/decoded 1K source; scene integration pending"
+    },
+    {
+      "id": "night-sky",
+      "runtimeUrl": "/assets/sky/night-1k.hdr",
+      "sha256": "480d67a67c8d7f8b69fe2334461b2004d7b420a61db1f68fa9043d91ee702b98",
+      "recordedLicense": "CC0",
+      "status": "Previously selected/decoded 1K source; scene integration pending"
+    }
+  ],
+  "excluded": [
+    "Incomplete partial valley extraction",
+    "Uncertain-license Construction Barier-02",
+    "Rejected car/traffic alternatives",
+    "All vehicle source bytes; these have their separate source records"
+  ],
+  "licenseRecord": "Credits and source records carried forward; no new source-page re-verification or unrestricted commercial clearance claimed."
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "roadwork-barricade",
+    "name": "Striped roadwork barricade · Object_19 · 1K",
+    "loaded": true,
+    "sourceDimensions": [
+      1.210269946012943,
+      1.1345482160828742,
+      1.1036997005894733
+    ],
+    "parts": [
+      {
+        "name": "Object_19",
+        "nodeIndex": 3,
+        "meshIndex": 0,
+        "vertices": 840,
+        "triangles": 1032,
+        "sourceBounds": {
+          "min": [
+            1.5041082606331746,
+            0.016413605457745895,
+            1.0610487142361502
+          ],
+          "max": [
+            2.7143782066461175,
+            1.15096182154062,
+            2.1647484148256235
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 1,
+        "triangles": 1032
+      },
+      {
+        "view": "View B",
+        "drawCalls": 1,
+        "triangles": 1032
+      },
+      {
+        "view": "High view",
+        "drawCalls": 1,
+        "triangles": 1032
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "mountain-peak-far-lod",
+    "name": "Mountain peak · far LOD candidate",
+    "loaded": true,
+    "sourceDimensions": [
+      212.48792266845703,
+      264.34851026535034,
+      211.61835479736322
+    ],
+    "parts": [
+      {
+        "name": "Object_2",
+        "nodeIndex": 2,
+        "meshIndex": 0,
+        "vertices": 492865,
+        "triangles": 315380,
+        "sourceBounds": {
+          "min": [
+            -106.23766326904297,
+            4.050507068634011,
+            -105.773696899414
+          ],
+          "max": [
+            106.25025939941406,
+            268.3990173339844,
+            105.84465789794923
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 1,
+        "triangles": 315380
+      },
+      {
+        "view": "View B",
+        "drawCalls": 1,
+        "triangles": 315380
+      },
+      {
+        "view": "High view",
+        "drawCalls": 1,
+        "triangles": 315380
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "valley-complete-atlas-far-lod",
+    "name": "Complete valley · corrected atlas · far LOD candidate",
+    "loaded": true,
+    "sourceDimensions": [
+      1564.9328002929688,
+      342.3132934570314,
+      1719.0146484375
+    ],
+    "parts": [
+      {
+        "name": "meshNode_Material_u1_v1_0",
+        "nodeIndex": 4,
+        "meshIndex": 0,
+        "vertices": 833974,
+        "triangles": 555604,
+        "sourceBounds": {
+          "min": [
+            -559.3673095703124,
+            -10.283752441406458,
+            -910.9301147460936
+          ],
+          "max": [
+            1005.5654907226562,
+            332.02954101562494,
+            808.0845336914064
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 1,
+        "triangles": 555604
+      },
+      {
+        "view": "View B",
+        "drawCalls": 1,
+        "triangles": 555604
+      },
+      {
+        "view": "High view",
+        "drawCalls": 1,
+        "triangles": 555604
+      }
+    ],
+    "phonePerformanceTested": false
+  },
+  {
+    "id": "desert-mars-sand",
+    "name": "Mars-derived terrain · approved sand material · 1K LOD candidate",
+    "loaded": true,
+    "sourceDimensions": [
+      24.99553108215332,
+      3.618903636932373,
+      13.95775032043457
+    ],
+    "parts": [
+      {
+        "name": "Object_2",
+        "nodeIndex": 2,
+        "meshIndex": 0,
+        "vertices": 21979,
+        "triangles": 40799,
+        "sourceBounds": {
+          "min": [
+            -12.49776554107666,
+            0.17911648750305176,
+            -6.978873252868652
+          ],
+          "max": [
+            12.49776554107666,
+            3.798020124435425,
+            6.978877067565918
+          ]
+        }
+      }
+    ],
+    "renderedViews": [
+      {
+        "view": "View A",
+        "drawCalls": 1,
+        "triangles": 40799
+      },
+      {
+        "view": "View B",
+        "drawCalls": 1,
+        "triangles": 40799
+      },
+      {
+        "view": "High view",
+        "drawCalls": 1,
+        "triangles": 40799
+      }
+    ],
+    "phonePerformanceTested": false
+  }
+]

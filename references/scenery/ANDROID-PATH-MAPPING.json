@@ -1,0 +1,7 @@
+{
+  "public/assets/scenery/": "app/src/main/assets/scenery/",
+  "public/assets/sky/": "app/src/main/assets/hdri/",
+  "daylight source": "DRIP-RACE-AI-Studio-Handoff/public/assets/sky/daylight-1k.hdr",
+  "metadata": "references/scenery/",
+  "note": "Source manifest and source CHECKSUMS are historical source records with original paths, not a claim of Android integration. See PACKAGE-CHECKS.json for this staged package."
+}
